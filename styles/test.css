@@ -1,0 +1,36 @@
+h1 {
+    font-size: 44px;
+}
+
+body {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:monospace;
+    font-size: 23px;
+    color:rgb(40, 53, 40);
+    background-color: rgb(144, 144, 144);
+}
+
+q {
+    font-style: italic;
+    font-weight: 550;
+}
+
+a {
+    color:rgb(40, 53, 40);
+    text-decoration-line: none;
+}
+
+li {
+    font-weight: 550;
+}
+
+ol li {
+    font-style: italic;
+} 
+
+hr {
+    height: 5px;
+    background-color: rgb(40, 53, 40);
+    border: 0;
+}
