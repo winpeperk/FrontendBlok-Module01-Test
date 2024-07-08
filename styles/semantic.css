@@ -51,18 +51,19 @@ ul {
 .post {
     padding-bottom: 20px;
 }
-section {
+.results section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
-section>p{
+.results section>p{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 10px;
 }
 .link {
     background-color: rebeccapurple;
@@ -70,9 +71,6 @@ section>p{
     padding: 8px 15px;
     display: block;
     text-align: center;
-}
-h1+section {
-    background-color: moccasin;
 }
 .results {
     display: flex;
